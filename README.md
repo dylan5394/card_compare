@@ -3,18 +3,18 @@ C++ program to compare 5 card poker hands
 
 
 ## Set up:
-Install necessary command line tools on your OS for compiling C++
-git clone git@github.com:dylan5394/card_compare.git
-cd card_compare
-make (ensure you ran this before trying to test or run random comparison!) 
+1. Install necessary command line tools on your OS for compiling C++
+2. git clone git@github.com:dylan5394/card_compare.git
+3. cd card_compare
+4. make (ensure you ran this before trying to test or run random comparison!) 
 
 ## To test:
-cd tests
-./test
+1. cd tests
+2. ./test
 
 ## To run random hand comparison:
-cd src
-./random_compare
+1. cd src
+2. ./random_compare
 
 
 ## Notes:
