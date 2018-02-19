@@ -1,5 +1,5 @@
 #include "lib/TestHarness.h"
-#include "card_compare.h"
+#include "../src/card_compare.h"
 
 TEST (Cards, Deal) {
     std::vector<Card> deck = createDeck();
