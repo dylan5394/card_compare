@@ -20,3 +20,5 @@ cd src
 ## Notes:
 
 The program does not deal wildcards or account for wildcards. Only cards valued 0 (Two) to  12 (Ace) are used. Thus 5 of a kind is not possible to attain through the random comparison program.
+
+The program assumes aces can be high or low so the compare function will analyze the hand twice: one time where the aces in the hand are low, and another time where they are high. The hand version (aces in high or low position) that produces a more desirable ranking is compared.
